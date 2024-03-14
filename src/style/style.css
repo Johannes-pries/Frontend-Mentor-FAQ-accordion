@@ -30,3 +30,30 @@ body {
 .background > img {
     width: 100%;
 }
+
+
+.faq-card {
+    background: var(--White);
+    height: auto;
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.heading {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 1.2rem
+}
+
+.heading > img{
+    display: inline-block;
+}
+
+.heading > h1 {
+    display: inline-block;
+    font-size: 4rem;
+    margin: 0;
+}
+
