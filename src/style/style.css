@@ -16,3 +16,17 @@ body {
     --Grayish-purple: hsl(292, 16%, 49%);
     --Dark-purple: hsl(292, 42%, 14%);
 }
+
+.root {
+    background: var(--Light-pink);
+
+}
+
+/* .background {
+    content: url(../../assets/images/background-pattern-desktop.svg);
+    width: 100%;
+} */
+
+.background > img {
+    width: 100%;
+}
