@@ -19,7 +19,7 @@ body {
 
 .root {
     background: var(--Light-pink);
-
+    padding: 0 0 7rem;
 }
 
 /* .background {
@@ -36,19 +36,23 @@ body {
     background: var(--White);
     height: auto;
     width: fit-content;
+    max-width: 40rem;
     padding: 2rem;
     border-radius: 10px;
+    margin: 0 auto;
+
 }
 
 .heading {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 50px 1fr;
     align-items: center;
     gap: 1.2rem
 }
 
 .heading > img{
     display: inline-block;
+    z-index: -1;
 }
 
 .heading > h1 {
@@ -57,3 +61,24 @@ body {
     margin: 0;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    border-bottom: 1px solid var(--Light-pink);
+}
+
+.content > h2{
+    font-size: 1.1rem;
+    color: var(--Dark-purple);
+}
+
+.content p {
+    font-size: .9rem;
+    color: var(--Grayish-purple);
+    letter-spacing: .01rem;
+    line-height: 1.5rem;
+    display: none;
+}
