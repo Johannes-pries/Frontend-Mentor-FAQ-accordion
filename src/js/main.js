@@ -12,6 +12,7 @@ for (let i=0; i<button.length; i++) {
             if (j!==i)
             {
                 paragraph[j].style.display = "none";
+                img[j].src = "./assets/images/icon-plus.svg";
             }
         }
 
