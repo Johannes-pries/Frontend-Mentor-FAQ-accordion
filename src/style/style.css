@@ -92,7 +92,6 @@ body {
     color: var(--Grayish-purple);
     letter-spacing: .01rem;
     line-height: 1.5rem;
-    display: none;
 }
 
 @media (max-width: 856px) {
